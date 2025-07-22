@@ -1,0 +1,26 @@
+[project]
+name = "image-analysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.8.1",
+    "bitsandbytes>=0.46.1",
+    "bs4>=0.0.2",
+    "dspy>=2.6.27",
+    "google-genai>=1.25.0",
+    "google-generativeai>=0.8.5",
+    "instructor>=1.9.2",
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.1",
+    "pillow>=11.3.0",
+    "pydantic>=2.11.7",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.4",
+    "sentencepiece>=0.2.0",
+    "torch>=2.7.1",
+    "torchvision>=0.22.1",
+    "tqdm>=4.67.1",
+    "transformers>=4.53.2",
+]
